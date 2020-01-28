@@ -29,7 +29,7 @@ public class PintarBordesMatriz {
                 if(x == 0 || x == m - 1 || y == 0 || y == m - 1 ) {
                     matriz[x][y] = "1";
                 } else {
-                    matriz[x][y] = "0";
+                    matriz[x][y] = " ";
                 }
             }
         }
